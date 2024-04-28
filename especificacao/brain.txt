@@ -7,5 +7,3 @@ Quantidade de dados por Regiao
 Regia - Dependência
 Regiao - Localização
 Regiao - dependencia_pne
-
-IN_ACESSIBILIDADE_INEXISTENTE
