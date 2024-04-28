@@ -1,7 +1,7 @@
 [//]: # (NO_REGIAO	Nome da Região Geográfica	Char
 TP_DEPENDENCIA	Dependência Administrativa	Num	1	"1 - Federal 2 - Estadual 3 - Municipal 4 - Privada"
 TP_LOCALIZACAO	Localização	Num	1	"1 - Urbana 2 - Rural"
-IN_DEPENDENCIAS_PNE	Dependências físicas existentes e utilizadas na escola - Dependências e vias adequadas a alunos com deficiência ou mobilidade reduzida	Num	1	"0 - Não 1 - Sim")
+IN_ACESSIBILIDADE_INEXISTENTE	Dependências físicas existentes e utilizadas na escola - Dependências e vias adequadas a alunos com deficiência ou mobilidade reduzida	Num	1	"0 - Não 1 - Sim")
 
 # Especificação do projeto
 

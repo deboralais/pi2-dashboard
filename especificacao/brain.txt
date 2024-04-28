@@ -1,0 +1,11 @@
+Regiao(_id_regiao, nome_regiao, _id_dependencia, _id_localizacao, _id_acessibilidade)
+Dependência(_id_dependencia, tipo_dp),
+Localização(_id_localizacao, tipo_loc)
+acessibilidade(id, depen_pne)
+
+Quantidade de dados por Regiao
+Regia - Dependência
+Regiao - Localização
+Regiao - dependencia_pne
+
+IN_ACESSIBILIDADE_INEXISTENTE
