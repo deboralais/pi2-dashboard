@@ -9,3 +9,19 @@ Regiao - Localização
 Regiao - dependencia_pne
 
 base: https://app.powerbi.com/view?r=eyJrIjoiMzQxMTMzM2YtZmM1YS00ZmVkLTljNzItOWU0YWNkNWQ5NjhjIiwidCI6Ijk4MDU2MjUzLWMyNDAtNDk2My04YTNkLTk1YmM3NjJlNzQwNyJ9
+=======
+
+NO_REGIAO	Nome da Região Geográfica;
+TP_DEPENDENCIA	Dependência Administrativa	Num	1	"1 - Federal 2 - Estadual 3 - Municipal 4 - Privada";
+TP_LOCALIZACAO	Localização	Num	1	"1 - Urbana 2 - Rural";
+IN_ACESSIBILIDADE_INEXISTENTE	Dependências físicas existentes e utilizadas na escola - Dependências e vias adequadas a alunos com deficiência ou mobilidade reduzida	Num	1	"0 - Não 1 - Sim";
+IN_ACESSIBILIDADE_CORRIMAO;
+IN_ACESSIBILIDADE_ELEVADOR;
+IN_ACESSIBILIDADE_PISOS_TATEIS;
+IN_ACESSIBILIDADE_VAO_LIVRE;
+IN_ACESSIBILIDADE_RAMPAS;
+IN_ACESSIBILIDADE_SINAL_SONORO;
+IN_ACESSIBILIDADE_SINAL_TATIL;
+IN_ACESSIBILIDADE_SINAL_VISUAL;
+IN_ACESSIBILIDADE_INEXISTENTE;
+(att)

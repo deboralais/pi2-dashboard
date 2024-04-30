@@ -1,13 +1,22 @@
-[//]: # (NO_REGIAO	Nome da Região Geográfica	Char
-TP_DEPENDENCIA	Dependência Administrativa	Num	1	"1 - Federal 2 - Estadual 3 - Municipal 4 - Privada"
-TP_LOCALIZACAO	Localização	Num	1	"1 - Urbana 2 - Rural"
-IN_ACESSIBILIDADE_INEXISTENTE	Dependências físicas existentes e utilizadas na escola - Dependências e vias adequadas a alunos com deficiência ou mobilidade reduzida	Num	1	"0 - Não 1 - Sim")
+[//]: # (NO_REGIAO	Nome da Região Geográfica;
+TP_DEPENDENCIA	Dependência Administrativa	Num	1	"1 - Federal 2 - Estadual 3 - Municipal 4 - Privada";
+TP_LOCALIZACAO	Localização	Num	1	"1 - Urbana 2 - Rural";
+IN_ACESSIBILIDADE_INEXISTENTE	Dependências físicas existentes e utilizadas na escola - Dependências e vias adequadas a alunos com deficiência ou mobilidade reduzida	Num	1	"0 - Não 1 - Sim";
+IN_ACESSIBILIDADE_CORRIMAO;
+IN_ACESSIBILIDADE_ELEVADOR;
+IN_ACESSIBILIDADE_PISOS_TATEIS;
+IN_ACESSIBILIDADE_VAO_LIVRE;
+IN_ACESSIBILIDADE_RAMPAS;
+IN_ACESSIBILIDADE_SINAL_SONORO;
+IN_ACESSIBILIDADE_SINAL_TATIL;
+IN_ACESSIBILIDADE_SINAL_VISUAL;
+IN_ACESSIBILIDADE_INEXISTENTE;)
 
 # Especificação do projeto
 
 
 ## Descrição do problema
-Entender como se da o acesso à educação básica aos alunos com deficiência ou mobilidade reduzida nas regioes do pais.
+Entender o acesso à educação básica dos alunos com deficiência ou mobilidade reduzida nas regioes do pais.
 
 ## Descrição da solução
 Demonstração dos indicadores por meio de um dashboard para auxiliar na implementação de políticas públicas.
