@@ -74,3 +74,4 @@ export async function getDimensions() {
     count: parseInt(row['Artworks.count'])
   }));
 }
+//api pronta
