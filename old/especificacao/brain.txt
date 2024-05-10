@@ -4,9 +4,9 @@ Localização(_id_localizacao, tipo_loc)
 acessibilidade(id, depen_pne)
 
 Quantidade de dados por Regiao
-Regia - Dependência
-Regiao - Localização
-Regiao - dependencia_pne
+Regia - Dependência;
+Regiao - Localização;
+Regiao - dependencia_pne;
 
 base: https://app.powerbi.com/view?r=eyJrIjoiMzQxMTMzM2YtZmM1YS00ZmVkLTljNzItOWU0YWNkNWQ5NjhjIiwidCI6Ijk4MDU2MjUzLWMyNDAtNDk2My04YTNkLTk1YmM3NjJlNzQwNyJ9
 
