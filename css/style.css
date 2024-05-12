@@ -1,0 +1,66 @@
+/* === Configuração Geral === */
+:root {
+  --cor-primaria: #1d2634;
+  --cor-fonte: #9e9ea4;
+
+  --fonte: "Montserrat", sans-serif;
+}
+
+*,
+::before,
+::after {
+  /* Resete das propriedades de layout */
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  /* Padroniza a fonte principal como 10px */
+  font-size: 62.5%;
+}
+
+body {
+  background-color: var(--cor-primaria);
+  color: var(--cor-fonte);
+  font-family: var(--fonte);
+}
+/* === Grid Container */
+
+.container-grid {
+  display: grid;
+  grid-template-columns: minmax(2rem, 1fr) minmax(min-content, 94rem) minmax(
+      1rem,
+      1fr
+    );
+  grid-template-rows: minmax(0.2fr, 5rem) 3fr;
+  grid-template-areas:
+    "header header header"
+    "main main main";
+}
+
+/* === HEADER ===*/
+header {
+  grid-area: header;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 7rem;
+  box-shadow: 0 6px 7px -3px rgba(0, 0, 0, 0.35);
+
+  padding: 0 3rem;
+}
+
+.header-esq, .header-dir {
+    cursor: pointer;
+}
+
+/* === ASIDE ===*/
+
+/* === MAIN ===*/
+
+main {
+  background-color: blanchedalmond;
+
+  height: 100vh;
+}

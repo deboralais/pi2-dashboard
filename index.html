@@ -1,12 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Acessibilidade no Ensino Básico</title>
 
-    <link rel="stylesheet" href="style.css">
-    <script src="./src/script.js" defer></script>
+    <link rel="stylesheet" href="./css/style.css" />
 
     <!-- Montserrat Font -->
     <link
@@ -19,14 +18,28 @@
       href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined"
       rel="stylesheet"
     />
-</head>
-<body>
+
+    <!-- Gráficos -->
+    <script src="https://cdn.jsdelivr.net/npm/apexcharts" defer></script>
+
+    <!-- Manipulação do DOM -->
+    <script src="./js/view/index.js" defer></script>
+  </head>
+  <body>
     <div class="container-grid">
-        <header class="header"></header>
+      <header class="header">
+        <div class="header-esq" onclick="abrirSidebar()">
+          <span class="material-icons-outlined">menu</span>
+        </div>
 
-        <aside id="aside"></aside>
+        <div class="header-dir">
+          <span class="material-icons-outlined"> account_circle </span>
+        </div>
+      </header>
 
-        <main class="main-container"></main>
+      <aside id="aside"></aside>
+
+      <main class="main-container">OI</main>
     </div>
-</body>
+  </body>
 </html>

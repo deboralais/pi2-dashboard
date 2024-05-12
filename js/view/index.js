@@ -1,0 +1,4 @@
+const abrirSidebar = () => {
+    alert("april")
+}
+
