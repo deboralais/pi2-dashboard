@@ -36,3 +36,10 @@ Jony, trabalha em um órgão governamental voltado para o desenvolvimento de pol
 ## Wireframe
 ![Wireframe DashBoard](../image/wireframe.png)
 [Projeto no Figma](https://www.figma.com/design/AmHYUbOwzMewX8eDciKP9J/Dashboard?node-id=1-2&t=y9nTREr5zDwnPWrY-0)
+
+## Membros da Equipe de Levantamento
+* Bruno Guilherme
+* Douglas Guilherme
+* Débora Laís
+* Emmanuel Meireles
+* Rayanne Belanger
