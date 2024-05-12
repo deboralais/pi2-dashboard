@@ -70,7 +70,7 @@ const barChartOptions = {
       theme: "dark"
     },
     xaxis: {
-      categories: ["Laptop", "Phone", "Monitor", "Headphones", "Camera"],
+      categories: ["cat1", "cat2", "cat3", "cat4", "cat5"],
       title: {
         style: {
           color: "#f5f7ff"
