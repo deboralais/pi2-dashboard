@@ -79,8 +79,9 @@ main {
   padding: 5px 15px;
   border-radius: 5px;
 
-  min-width: 15rem;
-  max-width: 40rem;
+  min-width: min-content;
+  width: 15rem;
+  max-width: 18rem;
   height: 8rem;
 }
 
@@ -117,14 +118,7 @@ main {
   font-size: 45px;
 }
 
-
-
-
-
-
-
-
-#bar-chart {
+#bar-chart, #donut {
   max-width: 850px;
   margin: 10px auto;
 }
@@ -138,4 +132,7 @@ main {
   aside {
     grid-area: aside;
   }
+  .main-cards {
+    display: flex;
+  } 
 }
