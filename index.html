@@ -31,14 +31,25 @@
         <div class="header-esq" onclick="abrirSidebar()">
           <span class="material-icons-outlined">menu</span>
         </div>
-
         <div class="header-dir">
           <span class="material-icons-outlined"> account_circle </span>
         </div>
       </header>
-
-      <aside id="aside"></aside>
-
+    
+      <aside id="aside">
+        <h1>DashBoard</h1>
+        <nav>
+          <ul class="sidebar-list">
+            <li>
+              Dependência
+              <span class="material-icons-outlined">
+    home_work
+    </span>
+            </li>
+          </ul>
+        </nav>
+      </aside>
+    
       <main class="main-container">
         <div class="main-cards">
           <div class="card">
@@ -47,35 +58,35 @@
             </div>
             <h1>240</h1>
           </div>
-
+    
           <div class="card">
             <div class="card-inner">
               <h3>NORDESTE</h3>
             </div>
             <h1>240</h1>
           </div>
-
+    
           <div class="card">
             <div class="card-inner">
               <h3>CENTRO OESTE</h3>
             </div>
             <h1>240</h1>
           </div>
-
+    
           <div class="card">
             <div class="card-inner">
               <h3>SUDESTE</h3>
             </div>
             <h1>240</h1>
           </div>
-
+    
           <div class="card">
             <div class="card-inner">
               <h3>SUL</h3>
             </div>
             <h1>240</h1>
           </div>
-
+    
           <div class="card">
             <div class="card-inner">
               <h3>BRASIL</h3>
@@ -83,16 +94,20 @@
             <h1>240</h1>
           </div>
         </div>
-
+    
         <div class="charts">
-          <h2>Tipos de dependencias</h2>
           <div class="charts-card">
+            <h2>Dependências Administrativas</h2>
             <div id="bar-chart"></div>
           </div>
-
-          
+    
+          <div class="charts-card">
+            <div id="donut"></div>
+          </div>
         </div>
+    
       </main>
+    
     </div>
   </body>
 </html>
