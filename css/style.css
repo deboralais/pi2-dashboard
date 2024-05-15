@@ -54,6 +54,11 @@ header {
 
 aside {
   display: none;
+  width: 20rem;
+  background-color: #263043;
+  padding: 2rem;
+  list-style-type: none;
+  transition: all 0.5s;
 }
 
 /* ====== MAIN ====== */
@@ -80,7 +85,7 @@ main {
   border-radius: 5px;
 
   min-width: min-content;
-  width: 15rem;
+  width: 18rem;
   max-width: 18rem;
   height: 8rem;
 }
@@ -126,11 +131,12 @@ main {
 @media screen and (min-width: 769px) {
   .container-grid {
     grid-template-areas:
-      "header header header"
+      "aside header header"
       "aside main main";
   }
   aside {
     grid-area: aside;
+    display: block;
   }
   .main-cards {
     display: flex;
