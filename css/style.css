@@ -54,11 +54,23 @@ header {
 
 aside {
   display: none;
-  width: 20rem;
-  background-color: #263043;
-  padding: 2rem;
-  list-style-type: none;
-  transition: all 0.5s;
+  padding: 2.5rem;
+  box-shadow: 0 6px 7px -3px rgba(0, 0, 0, 0.35);
+}
+ul {
+  list-style: none;
+}
+.sidebar-title {
+  display: flex;
+  align-items: center;
+  vertical-align: baseline;
+}
+ul > li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  vertical-align: baseline;
+  font-size: 1.5rem;
 }
 
 /* ====== MAIN ====== */
@@ -85,7 +97,7 @@ main {
   border-radius: 5px;
 
   min-width: min-content;
-  width: 18rem;
+  width: 15rem;
   max-width: 18rem;
   height: 8rem;
 }
@@ -133,6 +145,22 @@ main {
     grid-template-areas:
       "aside header header"
       "aside main main";
+  }
+  .header-esq {
+    display: none;
+  }
+  .header {
+    justify-content: end;
+  }
+  #close {
+    display: none;
+  }
+  .charts {
+    display: flex;
+    justify-content: space-between;
+  }
+  .charts-card {
+    width: 100%;
   }
   aside {
     grid-area: aside;
