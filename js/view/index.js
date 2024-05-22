@@ -273,7 +273,7 @@ var optionDonut = {
   title: {
     text: 'Department Sales',
     style: {
-      fontSize: '18px',
+      fontSize: '19px',
       color: "#FFFFFF"
     }
   },
