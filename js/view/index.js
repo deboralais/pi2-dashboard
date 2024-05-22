@@ -79,7 +79,7 @@ const barChartOptions = {
     categories: ["cat1", "cat2", "cat3", "cat4", "cat5"],
     title: {
       style: {
-        color: "#f5f7ff"
+        color: "#FFFFFF"
       }
     },
     axisBorder: {
@@ -273,12 +273,16 @@ var optionDonut = {
   title: {
     text: 'Department Sales',
     style: {
-      fontSize: '18px'
+      fontSize: '18px',
+      color: "#FFFFFF"
     }
   },
   series: [21, 23, 19, 14, 6],
   labels: ['Clothing', 'Food Products', 'Electronics', 'Kitchen Utility', 'Gardening'],
   legend: {
+    labels: {
+      colors: "#FFFFFF"
+    },
     position: 'left',
     offsetY: 80
   }

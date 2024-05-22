@@ -1,6 +1,6 @@
 :root {
-  --cor-primaria: #001347;
-  --cor-fonte: #ffffff;
+  --cor-primaria: #04042e;
+  --cor-fonte: #f0f0f0;
 
   --fonte: "Montserrat", sans-serif;
 }
@@ -161,6 +161,7 @@ main {
   }
   .charts-card {
     width: 100%;
+    color: #FFFFFF
   }
   aside {
     grid-area: aside;
