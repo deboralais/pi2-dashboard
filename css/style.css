@@ -23,6 +23,7 @@ body {
   background-color: var(--cor-primaria);
   color: var(--cor-fonte);
   font-family: var(--fonte);
+  height: 100%;
 }
 
 /* ====== Container ====== */
@@ -43,6 +44,7 @@ header {
 
   box-shadow: 0 6px 7px -3px rgba(0, 0, 0, 0.35);
   padding: 2rem 5rem;
+  background-color: #0c0c4d50;
 }
 
 .header-esq,
@@ -56,6 +58,8 @@ aside {
   display: none;
   padding: 2.5rem;
   box-shadow: 0 6px 7px -3px rgba(0, 0, 0, 0.35);
+  height: 100%;
+  background-color: #0c0c4d50;
 }
 ul {
   list-style: none;
@@ -64,10 +68,11 @@ ul {
   display: flex;
   align-items: center;
   vertical-align: baseline;
+  margin-bottom: 5rem;
 }
 ul > li {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   vertical-align: baseline;
   font-size: 1.5rem;
