@@ -241,11 +241,11 @@ const areaChartOptions = {
   }
 };
 
-const areaChart = new ApexCharts(
+/* const areaChart = new ApexCharts(
   document.querySelector("#area-chart"),
   areaChartOptions
 );
-areaChart.render();
+areaChart.render(); */
 
 
 var optionDonut = {
