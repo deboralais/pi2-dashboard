@@ -253,13 +253,14 @@ var optionDonut = {
   chart: {
     type: 'donut',
     width: '95%',
-    height: 300
+    height: 400
   },
   plotOptions: {
     pie: {
-      customScale: 1,
+      customScale: 0.8,
+      offsetY: 20,
       donut: {
-        size: '65%',
+        size: '75%',
       }
     },
     stroke: {
@@ -270,14 +271,19 @@ var optionDonut = {
     enabled: false,
   },
   colors: ["#2962ff", "#d50000", "#2e7d32", "#ff6d00", "#583cb3"],
-  series: [21, 29],
-  labels: ['Urbana', 'Rural'],
+  series: [21, 23, 19, 14, 6],
+  labels: ['Clothing', 'Food Products', 'Electronics', 'Kitchen Utility', 'Gardening'],
   legend: {
     labels: {
       colors: "#FFFFFF"
     },
     position: 'left',
     offsetY: 80
+  },
+  tooltip: {
+    shared: true,
+    intersect: false,
+    theme: "dark"
   }
 };
 
@@ -287,3 +293,4 @@ var donut = new ApexCharts(
 );
 
 donut.render();
+
