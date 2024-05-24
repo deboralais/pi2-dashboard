@@ -125,6 +125,7 @@ const barChart = new ApexCharts(
 );
 barChart.render();
 
+/*
 // AREA CHART
 const areaChartOptions = {
   series: [
@@ -241,7 +242,7 @@ const areaChartOptions = {
   }
 };
 
-/* const areaChart = new ApexCharts(
+const areaChart = new ApexCharts(
   document.querySelector("#area-chart"),
   areaChartOptions
 );
@@ -270,13 +271,6 @@ var optionDonut = {
     }
   },
   colors: ["#2962ff", "#d50000", "#2e7d32", "#ff6d00", "#583cb3"],
-  title: {
-    text: 'Department Sales',
-    style: {
-      fontSize: '19px',
-      color: "#FFFFFF"
-    }
-  },
   series: [21, 23, 19, 14, 6],
   labels: ['Clothing', 'Food Products', 'Electronics', 'Kitchen Utility', 'Gardening'],
   legend: {
