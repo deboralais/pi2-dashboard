@@ -19,7 +19,7 @@ const abrirSidebar = () => {
 const barChartOptions = {
   series: [
     {
-      data: [10, 8, 6, 4, 2],
+      data: [10, 8, 6, 4],
       name: "Dependencias"
     }
   ],
@@ -76,7 +76,7 @@ const barChartOptions = {
     theme: "dark"
   },
   xaxis: {
-    categories: ["cat1", "cat2", "cat3", "cat4", "cat5"],
+    categories: ["Federal", "Estadual", "Munincipal", "Privada"],
     title: {
       style: {
         color: "#FFFFFF"
@@ -98,7 +98,7 @@ const barChartOptions = {
   },
   yaxis: {
     title: {
-      text: "Count",
+      text: "Quantidade",
       style: {
         color: "#f5f7ff"
       }
@@ -251,28 +251,27 @@ areaChart.render(); */
 
 var optionDonut = {
   chart: {
-      type: 'donut',
-      width: '100%',
-      height: 400
-  },
-  dataLabels: {
-    enabled: false,
+    type: 'donut',
+    width: '95%',
+    height: 300
   },
   plotOptions: {
     pie: {
-      customScale: 0.8,
+      customScale: 1,
       donut: {
-        size: '75%',
-      },
-      offsetY: 20,
+        size: '65%',
+      }
     },
     stroke: {
       colors: undefined
     }
   },
+  dataLabels: {
+    enabled: false,
+  },
   colors: ["#2962ff", "#d50000", "#2e7d32", "#ff6d00", "#583cb3"],
-  series: [21, 23, 19, 14, 6],
-  labels: ['Clothing', 'Food Products', 'Electronics', 'Kitchen Utility', 'Gardening'],
+  series: [21, 29],
+  labels: ['Urbana', 'Rural'],
   legend: {
     labels: {
       colors: "#FFFFFF"
@@ -280,10 +279,11 @@ var optionDonut = {
     position: 'left',
     offsetY: 80
   }
-}
+};
 
 var donut = new ApexCharts(
   document.querySelector("#donut"),
   optionDonut
-)
+);
+
 donut.render();
