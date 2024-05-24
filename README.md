@@ -8,6 +8,7 @@ Projeto Integrador 2 - conhecimentos adquiridos em back4app
 Programação para Web - conhecimentos adquiridos em CSS, Javascript, HTML
 Análise de Interface - Aplicação das Heuristicas de Nielsen e navegação voltada para experiência do usuário.
 Bando de Dados - Aplicação de modelagem de dados.
+PWABuilder - transformação do ambiente web em aplicativo.
 
 ## Habilidades Trabalhadas
 Domínio Avançado do Back4app para Desenvolvimento de Aplicações Backend Robustas
